@@ -1,0 +1,30 @@
+body{
+    box-sizing: border-box;
+    margin: 1
+    padding: 3;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: bisque;
+}
+h1{
+    color: darkmagenta;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    max-width: 10vw;
+    border-radius: 25%;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    display: block;
+}
+
+.text>h1,p{
+    display: flex;
+    justify-content: center;
+}
